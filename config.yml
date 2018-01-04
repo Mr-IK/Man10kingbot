@@ -1,0 +1,37 @@
+#例: ←この言葉は何でもいいです。整理しやすい名前がおすすめです。同じ名前にはしないでください。
+#  targetword: "おはまん" ←対象の言葉です。
+#  message: "&6&lおはまんです！" ←botが返事をする言葉です。&は§に置き換えられます。
+#  runcommand: "say <player_name>" ←返事する際に、コンソールから実行するコマンドです。<player_name>は話したplayerの名前に置き換えられます。
+#  global?: "yes" ←返事を全員に見せるか言った人のみに表示するか選べます。"yes"なら全員に、それ以外の言葉なら言った人のみ見えます。
+#  batword?: "yes" ←特定の言葉を伏字にするかどうか yesで伏字に それ以外でしない
+bot:
+  例:
+    targetword: "おはまん"
+    message: "&6挨拶をするのはいいことですね！"
+    runcommand: 
+    global?: ""
+    batword?: ""
+  例1:
+    targetword: "fuck"
+    message: "/fuckコマンドを使いましょう。"
+    runcommand: 
+    global?: ""
+    batword?: ""
+  例2:
+    targetword: "082"
+    message: "&6挨拶をするのはいいことですね！"
+    runcommand: 
+    global?: ""
+    batword?: ""
+  例3:
+    targetword: "死ね"
+    message: "/fuckコマンドを使いましょう。"
+    runcommand: 
+    global?: ""
+    batword?: ""
+  114514:
+    targetword: "114514"
+    message: "&4&l淫夢語録は警告対象です。やめてくださいね。"
+    runcommand: 
+    global?: "yes"
+    batword?: "yes"
