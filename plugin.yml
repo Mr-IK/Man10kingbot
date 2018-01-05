@@ -1,6 +1,6 @@
 name: Man10kingbot
 version: 1.1.0
-main: man10kingbot.Man10kingbot
+main: red.man10.Man10kingbot
 commands:
   mbot:
     description: manbotreload
