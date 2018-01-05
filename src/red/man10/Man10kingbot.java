@@ -77,6 +77,7 @@ public class Man10kingbot extends JavaPlugin {
 			          map.put(a+"2", d);
 			          map.put(a+"3", e);
 			}
+		getCommand("mbot").setExecutor(this);
 		super.onEnable();
 	}
 	public class bot implements Listener {
